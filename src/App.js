@@ -35,7 +35,7 @@ class App extends Component {
 
   render() {
     return (
-      <center className="container" style={{ backgroundColor: 'pink' position: 'fixed', 
+      <center className="container" style={{ backgroundColor: 'pink', position: 'fixed', 
       minWidth: '100%', 
       minHeight: '100%'}}>
         <div className="card text-right mx-auto mt-5" style={{width: 500, backgroundColor: 'white'}}>
