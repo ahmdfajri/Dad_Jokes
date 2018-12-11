@@ -35,7 +35,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container" style={{ backgroundColor: 'pink'}}>
+      <center className="container" style={{ backgroundColor: 'pink' position: 'fixed', 
+      minWidth: '100%', 
+      minHeight: '100%'}}>
         <div className="card text-right mx-auto mt-5" style={{width: 500, backgroundColor: 'white'}}>
           <div className="card-body">
             <h5 className="card-title">{this.state.question}</h5>
@@ -45,7 +47,7 @@ class App extends Component {
             <button onClick={()=>{this.punch()}} className="btn btn-danger center">Reload <i className="em em-repeat "/> </button>
           </div>
         </div>
-      </div>
+      </center>
     );
   }
 }
